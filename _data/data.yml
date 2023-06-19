@@ -134,7 +134,7 @@ skill:
   show: true
   order: 4
   title: Skills
-  description:|
+  description: |
     - Programming Languages: Java, Python
     - Tools & Technologies: SpringBoot, Kafka, PyTorch, Selenium
     - Databases: MySQL, Oracle
