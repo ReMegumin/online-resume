@@ -112,11 +112,11 @@ experience:
       role: Backend Developer
       location: NingBo
       description: |
-      + Spearheaded the development and local deployment of an AI Language model for a Virtual Digital Human Solution, which has served over 3,000 customers.
-      + In collaboration with banking institutions, successfully contributed to multiple projects, including a centralized Safe Box Management System and a file management system, by focusing on back-end development using Java, Spring Boot, and MyBatis.
-      + Successfully reengineered the existing Safe Box Management System, integrating it seamlessly into the bank's platform, leading to a 20% increase in overall response speed.
-      + Implemented AI graphic recognition, effectively training models to recognize business-related information, resulting in a recognition rate of up to 98% post-training.
-      + Utilized Selenium for web scraping to collect data for model training, thereby enhancing the efficiency of the training process.
+        - Spearheaded the development and local deployment of an AI Language model for a Virtual Digital Human Solution, which has served over 3,000 customers.
+        - In collaboration with banking institutions, successfully contributed to multiple projects, including a centralized Safe Box Management System and a file management system, by focusing on back-end development using Java, Spring Boot, and MyBatis.
+        - Successfully reengineered the existing Safe Box Management System, integrating it seamlessly into the bank's platform, leading to a 20% increase in overall response speed.
+        - Implemented AI graphic recognition, effectively training models to recognize business-related information, resulting in a recognition rate of up to 98% post-training.
+        - Utilized Selenium for web scraping to collect data for model training, thereby enhancing the efficiency of the training process.
 
     - company: Cloud Berry technology co., ltd.
       tags: Full-time
@@ -124,10 +124,10 @@ experience:
       role: Backend Developer
       location: Beijing
       description: |
-        + Co-founded a start-up where I led server development, AI model training, and large-scale data collection, honing my technical skill.
-        + Working on the architecture and coding of a large-scale information collection server, leveraging Netty and Kafka for real-time data transmission and storage in MySQL.
-        + Demonstrated the ability to process over 1 million data points per hour, with the server maintaining smooth processing and classification of information.
-        + Using AI graphic recognition to solve real-time information collection.
+        - Co-founded a start-up where I led server development, AI model training, and large-scale data collection, honing my technical skill.
+        - Working on the architecture and coding of a large-scale information collection server, leveraging Netty and Kafka for real-time data transmission and storage in MySQL.
+        - Demonstrated the ability to process over 1 million data points per hour, with the server maintaining smooth processing and classification of information.
+        - Using AI graphic recognition to solve real-time information collection.
 
 
 skill:
@@ -135,11 +135,11 @@ skill:
   order: 4
   title: Skills
   description:|
-    + Programming Languages:Java, Python
-    + Tools & Technologies: SpringBoot, Kafka, PyTorch, Selenium
-    + Databases: MySQL, Oracle
-    + AI Application and Data Collection
-    + Server Development
+    - Programming Languages: Java, Python
+    - Tools & Technologies: SpringBoot, Kafka, PyTorch, Selenium
+    - Databases: MySQL, Oracle
+    - AI Application and Data Collection
+    - Server Development
 
 
 
