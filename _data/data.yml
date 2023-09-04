@@ -1,6 +1,6 @@
 basic:
   name: Zhang Puyuan                 # name
-  title: Backend Developer           # job title
+  title: Software Developer           # job title
   avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -10,9 +10,9 @@ contact:
   email: zhangpy9802@gmail.com    # email address
   phone: +1 720-917-6733 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
 
-  gender:                  # gender or pronoun
+  gender: Male                 # gender or pronoun
   birthday: 1998-02-10                # birthday
-  nationality:             # nationality
+  nationality: China       # nationality
   visa:                    # passport visa
   drivinglicense:          # driving licence
 
@@ -81,10 +81,8 @@ profile:
   order: 1
   title: Profile
   description: |
-    Solution-oriented Software Developer with a passion to learn and work with new technologies that make a positiveimpact on society. 
-    I bring to the table expertise in AI applications, server development, and data collection, grounded in a strong foundation of Python and Java. 
-    I am proficient in using tools like Java Spring, Selenium, PyTorch, and Kafka, and have hands-on experience in designing, developing, and optimizing the performance of relational databases such as MySQL and Oracle. 
-    My track record showcases my ability to apply technology in addressing business challenges, particularly in the realms of server development and AI application. I am eager to apply my technical acumen and innovative problem-solving skills in a challenging new role.
+    A seasoned Software Developer specializing in AI applications, server development, and data management. With a track record of deploying AI-driven solutions serving over 3,000 customers and efficiently processing up to 400,000 data points per hour, I combine my expertise in Python and Java with hands-on experience in tools like Java Spring, Selenium, PyTorch, and Kafka. My collaboration with banking institutions, leading projects from conception to fruition, demonstrates my ability to leverage technology for tangible business outcomes. Looking to leverage my technical prowess and innovative approach in a dynamic role.
+
 
 education:
   show: true
@@ -109,31 +107,62 @@ experience:
     - company: Ningbo Yijian technology co., ltd.
       link: 
       tags: Full-time
-      date: June 2022 - Current
-      role: Backend Developer
+      date: May 2021 - Current
+      role: Software Developer
       location: NingBo
       description: |
-        - Spearheaded the development and local deployment of an AI Language model for a Virtual Digital Human Solution, which has served over 3,000 customers.
-        - In collaboration with banking institutions, successfully contributed to multiple projects, including a centralized Safe Box Management System and a file management system, by focusing on back-end development using Java, Spring Boot, and MyBatis.
-        - Successfully reengineered the existing Safe Box Management System, integrating it seamlessly into the bank's platform, leading to a 18% increase in overall response speed.
-        - Implemented AI graphic recognition, effectively training models to recognize business-related information, resulting in a recognition rate of up to 98% post-training.
-        - Utilized Selenium for web scraping to collect data for model training, thereby enhancing the efficiency and accuracy of the training process.
+        - **AI Development & Deployment**: Led the development of a Local Knowledge Base QA Application using an AI language model, serving over 3,000 customers. Implemented AI graphic recognition for business data, achieving a post-training recognition rate of 98%. Devised a solution using AI image recognition to bolster real-time information collection efficiency by 30%.
+    
+        - **Collaboration & System Optimization**: Partnered with banking institutions on multiple projects, including the successful re-engineering of the Safe Box Management System. Achieved a 18% uptick in response speed through system optimization. Managed backend development predominantly using Java, Spring Boot, and MyBatis.
+    
+        - **Web Crawling & Data Management**: Harnessing Selenium for data scraping, enhanced model training processes. Architected a large-scale information collection server utilizing Netty and Kafka, effectively processing and classifying over 400,000 data points per hour.
+        
+        - **Professional & responsible**: Taking charge of server development, AI model training, and extensive data collection to sharpen technical acumen and business skills.
 
-    - company: Cloud Berry technology co., ltd.
-      tags: Full-time
-      date: May 2021 - June 2022
-      role: Software Developer
-      location: Nanjing
+# example https://dl.acm.org/doi/abs/10.1145/1852102.1852103
+
+project:
+  show: true
+  order: 4
+  title: Projects
+  description: A showcase of my software development expertise in Java and Python, with an emphasis on server development, web crawling, and AI applications.
+
+  items:
+    - name: Kafka Relay Server
+      Language: Java
+      date: Feb 2021 - May 2021
       description: |
-        - Co-founded a start-up where I led server development, AI model training, and large-scale data collection, honing my technical skill.
-        - Working on the architecture and coding of a large-scale information collection server, leveraging Netty and Kafka for real-time data transmission and storage in MySQL.
-        - Demonstrated the ability to process over 1 million data points per hour, with the server maintaining smooth processing and classification of information.
-        - Using AI graphic recognition to solve real-time information collection, increase overall efficiency by 30%.
+            Oversaw the entire lifecycle of a data-forwarding server using Kafka to manage a data influx of 400,000 records per hour. Faced challenges when the producer's data rate exceeded the database consumption speed, causing server memory overflow. Optimized the database processing speed and segmented the Kafka server's consumption logic to resolve this. Implemented websocket for real-time data transmission from remote producers and utilized Kafka for streamlined data transfer and processing.
+
+    - name: Clustering-based Web Crawler 
+      Language: Python
+      date: Feb 2022 - July 2022
+      description: |
+        Spearheaded the design of a specialized web crawler in a team of 6, aimed at extracting network data from specific domains. Utilized Selenium in Python for scraping and incorporated RabbitMQ for distributed IP pool management, ensuring optimal data collection.
+
+    - name: Application of AI Image Recognition in Web Crawling
+      Language: Python
+      date: July 2022 - Dec 2022
+      description: |
+        Engineered an AI-powered solution to navigate challenges like verification codes during web crawling. Amassed a plethora of images via crawling, then harnessed PyTorch for training a visual model, boosting the crawler's efficiency by a remarkable 30%.
+
+    - name: Centralized Management System for Bank Safes
+      Language: Java
+      date: Jan 2023 - April 2023
+      description: |
+        Collaborated with a team of 5 on the re-engineering and modernization of a legacy Safe Box Management System. Leveraged Java Spring as the primary framework and Oracle for backend operations. Assured flawless integration of the revamped system into the bank's extant platform. Realized optimizations using MyBatis for SQL commands and introduced advanced features such as visual usage ratio and risk control visualization. These interventions collectively propelled a substantial 18% surge in the system's response speed.
+
+    - name: Langchain and Language Models Based Local Knowledge Base QA Application
+      Language: Python
+      date: April 2023 - Sep 2023
+      description: |
+        Collaboratively developed, in a team of 6, a localized Q&A application adhering to Langchain paradigms. Endeavored to fabricate a knowledge base Q&A tool fine-tuned for company contexts with the capability of offline operations via open-source language models. The workflow encompassed file loading, text processing, vectorization, question matching with top-k similar text vectors, and exploiting LLM to yield accurate answers founded on matched contexts. A major challenge involved the suboptimal accuracy of the embedding model, tackled effectively by gathering extensive data for bespoke training.
+
 
 
 skill:
   show: true
-  order: 4
+  order: 5
   title: Skills
   description: |
     - Programming Languages: Java, Python
@@ -143,4 +172,20 @@ skill:
     - Server Development
 
 
+
+
+
+language:
+  show: true
+  order: 6
+  title: Languages
+
+
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Advance
+    - idiom: Japanese
+      level: Basic
 
